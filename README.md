@@ -1,12 +1,102 @@
-# React + Vite
+# 📬 React Contact Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and minimal React-based contact form that captures a user's name, email, and message. It validates input and shows appropriate alerts on submission.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Installation & Setup
 
-## Expanding the ESLint configuration
+### 1. Clone the Repository
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/imamulkadir/React_ContactForm.git
+cd React_ContactForm
+```
+
+### 2. Install Dependencies
+
+Make sure you have Node.js and npm installed. Then, install the project dependencies:
+
+```bash
+npm install
+```
+
+### 3. Run the Development Server
+
+```bash
+npm run dev
+```
+
+Visit `http://localhost:5173` in your browser to see the app running.
+
+---
+
+## 🧪 Usage
+
+- Enter your **Name**, **Email**, and **Message**.
+- Click **Submit**.
+- If all fields are filled, you'll see a “Thank you, submitted!” alert.
+- If any field is missing, it prompts “Please fill all fields.”
+- Form submission logic is handled within `ContactForm.jsx`.
+
+---
+
+## 📁 Project Structure
+
+```plaintext
+React_ContactForm/
+├── public/
+│   └── vite.svg
+├── src/
+│   ├── components/
+│   │   └── ContactForm.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── .gitignore
+├── index.html
+├── package.json
+├── README.md
+└── vite.config.js
+```
+
+---
+
+## 🧩 Built With
+
+- React  
+- Vite  
+- HTML & CSS (vanilla)  
+- JavaScript (ES6+)
+
+---
+
+## 📌 Customization
+
+To customize the form or validation logic:
+
+- Edit `src/components/ContactForm.jsx`
+- Update styles in `src/index.css`
+
+You can also replace the alert functionality with modal messages or integrate with a backend service.
+
+---
+
+## 📃 License
+
+This project is licensed under the MIT License.  
+See the `LICENSE` file for more details.
+
+---
+
+## 👤 Author
+
+**Imamul Kadir**  
+🔗 [GitHub Profile](https://github.com/imamulkadir)
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome!  
+For major changes, please open an issue first to discuss what you'd like to change.
